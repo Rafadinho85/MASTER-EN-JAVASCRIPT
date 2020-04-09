@@ -1,3 +1,4 @@
+'use strict'//me permite agregar nuevas funcionalidades y me permite evitar malas practicas de programación
 // variables
 // es un contenedor de información
 
@@ -9,3 +10,4 @@ pais = "salvador"
 continente = "latim"
 console.log (pais, continente, antiguedad);
 alert(pais_y_continente);
+/*modo estricto*/
