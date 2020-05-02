@@ -74,3 +74,20 @@ console.log(busqueda);
 //buscar la palabra y devolver un true o un false
 var busqueda = texto2.includes("Mi");
 console.log(busqueda);
+
+
+//metodos de reemplazo
+
+var busqueda = texto2.replace("kathy", "arabella");
+console.log(busqueda);
+
+//metodo que cortar el string y me devuelve desde donde quero que empiece
+
+var busqueda = texto2.slice(14);
+console.log(busqueda);
+
+var busqueda = texto2.split(" ");
+console.log(busqueda);
+
+var busqueda = texto2.trim();
+console.log(busqueda);
