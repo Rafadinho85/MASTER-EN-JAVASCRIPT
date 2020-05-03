@@ -27,10 +27,21 @@ if(elemento >= nombres.length){
     alert("El usuario seleccionado es "+nombres[elemento]);
 }
 */
+//recorriendo un array de forma tradicional
 document.write("<h1>Lenguajes</h1>");
 document.write("<ul>")
-for(var i=0; i<=lenguajes.length; i++){
+for(var i=0; i< lenguajes.length; i++){
     document.write("<li>"+lenguajes[i]+"</li>");
 
 }
-document.write("</ul>")
+document.write("</ul>");
+document.write("<ul>");
+
+//recorrer un array con forEach
+//                  elementos, posicion que ocupa en el array, y nos muestra el arreglo completo
+lenguajes.forEach((elemento, indice, arr)=>{
+    console.log(arr);
+    document.write("<li>"+indice+"-"+elemento+"</li>");
+});
+document.write("</ul>");
+
