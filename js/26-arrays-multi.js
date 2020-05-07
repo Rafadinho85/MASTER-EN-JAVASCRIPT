@@ -28,7 +28,7 @@ console.log(peliculas);
 var indice = peliculas.indexOf('la maldicion');
 console.log(indice);
 if(indice > -1){
-    peliculas.splice(indice);
+    peliculas.splice(indice,2);
 }
 console.log(peliculas);
 */
@@ -38,3 +38,8 @@ var pelicula_string = peliculas.join();
 console.log(pelicula_string);
 
 
+//convertir un string en un array
+
+var cadena = "texto1, texto2, texto3";
+var cadena_array = cadena.split(",");
+console.log(cadena_array);
