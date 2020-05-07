@@ -1,7 +1,7 @@
 'use strict'
 
 var categorias = ['Accion', 'Terror', 'Romance'];
-var peliculas = ['Advengers','la maldicion', 'la vida es bella'];
+var peliculas = ['Advengers','la maldicion','AVE', 'la vida es bella'];
 
 var cine = [categorias, peliculas]
 //console.log(cine);
@@ -43,3 +43,9 @@ console.log(pelicula_string);
 var cadena = "texto1, texto2, texto3";
 var cadena_array = cadena.split(",");
 console.log(cadena_array);
+
+//ordenar un array por orden abc
+peliculas.sort();
+//orden inverso
+peliculas.reverse();
+console.log(peliculas);
