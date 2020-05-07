@@ -43,5 +43,11 @@ lenguajes.forEach((elemento, indice, arr)=>{
     console.log(arr);
     document.write("<li>"+indice+"-"+elemento+"</li>");
 });
-document.write("</ul>");
 
+//otra forma de recorrer un array
+document.write("<h1>Otra forma</h1>")
+for(let lenguaje in lenguajes){
+    document.write("<li>"+lenguajes[lenguaje]+"</li>");
+}
+
+document.write("</ul>");
