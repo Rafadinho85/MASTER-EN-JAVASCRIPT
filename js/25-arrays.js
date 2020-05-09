@@ -51,3 +51,30 @@ for(let lenguaje in lenguajes){
 }
 
 document.write("</ul>");
+
+
+//busquedas
+
+var busqueda1 = lenguajes.find(function(lenguaje){
+    return lenguaje == "java";
+});
+console.log("resultado");
+
+console.log(busqueda1);
+
+//otra forma mas reducida de buscar
+
+var busqueda2 = lenguajes.find(lenguaje => lenguaje == "php");
+
+console.log(busqueda2);
+//sacar el indice en que se encuentra
+
+var busqueda3 = lenguajes.findIndex(lenguaje => lenguaje == "java");
+console.log(busqueda3);
+
+//
+
+var precios = [10, 20, 50, 80, 21];
+
+var busqueda = precios.some(precio =>precio >=20);
+console.log(busqueda);
