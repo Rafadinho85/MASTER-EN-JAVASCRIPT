@@ -72,7 +72,7 @@ console.log(busqueda2);
 var busqueda3 = lenguajes.findIndex(lenguaje => lenguaje == "java");
 console.log(busqueda3);
 
-//
+//metodo some nos permite ver si los numeros cumplen una condicion en concreto en un array exis
 
 var precios = [10, 20, 50, 80, 21];
 
